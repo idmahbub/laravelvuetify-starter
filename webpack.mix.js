@@ -15,6 +15,10 @@ mix.disableSuccessNotifications();
 
 mix.copyDirectory('resources/img', 'public/img')
     .js('resources/js/admin/admin.js', 'public/js')
-    .sass('resources/sass/admin.scss', 'public/css')
-    .sass('resources/sass/front.scss', 'public/css')
+    .sass('resources/sass/admin.scss', 'public/css', {
+        implementation: require('node-sass')
+    })
+    .sass('resources/sass/front.scss', 'public/css', {
+        implementation: require('node-sass')
+    })
     .extract(['vue','vue-router','moment','axios','lodash','dropzone']);

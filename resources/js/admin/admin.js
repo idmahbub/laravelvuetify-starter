@@ -15,7 +15,7 @@ import 'vuetify/dist/vuetify.min.css';
 import Vue from 'vue';
 import Vuetify from 'vuetify';
 import VueProgressBar from 'vue-progressbar'
-
+import _ from 'lodash';
 // this is the vuetify theming options
 // you can change colors here based on your needs
 // and please dont forget to recompile scripts
@@ -38,7 +38,7 @@ Vue.use(VueProgressBar,{
 });
 
 // global component registrations here
-Vue.component('moon-loader', require('vue-spinner/src/MoonLoader.vue'));
+Vue.component('moon-loader', require('vue-spinner/src/MoonLoader.vue').default);
 
 // app
 import router from './router';
