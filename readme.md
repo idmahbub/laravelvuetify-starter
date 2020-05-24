@@ -1,4 +1,4 @@
-<h2>Laravel 7.0~ + VueJS + Vuetify</h2>
+<h2>Laravel 7.0~ + laramix 5.x + Vuetify</h2>
 <p>NOTE: This uses hybrid routing. Inner pages is SPA using vue-router for smoother user experience. So if you are an advanced user of laravel and vueJS, then this one is for you. But if you are just learning laravel and vueJS, then this might not be for you.</p>
 <h2>Installation</h2>
 NOTE: Requirements need to be with laravel version 7.x or higher and PHP Version 7.3 or higher.
