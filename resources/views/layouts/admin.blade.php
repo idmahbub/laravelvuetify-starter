@@ -87,10 +87,11 @@
                 <transition name="fade">
                     <router-view></router-view>
                 </transition>
+                <v-footer >
+                    <span>&copy; {{ date('Y') }}</span>
+                </v-footer>
             </v-content>
-            <v-footer fixed>
-                <span>&copy; {{ date('Y') }}</span>
-            </v-footer>
+            
         </v-app>
 
         <!-- loader -->
